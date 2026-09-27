@@ -6,7 +6,6 @@
     justify-content: center;
     flex-direction: column;
     font-family: 'Inter', sans-serif;
-    min-height: 100vh;
 }
 
 .button-container {
@@ -53,4 +52,12 @@
 
 .btn .power-btn {
     height: 34px;
+}
+
+.btn .pi-btn {
+    height: 80px;
+}
+
+.btn .e-btn {
+    height: 80px;
 }
