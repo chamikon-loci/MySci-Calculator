@@ -1,0 +1,17 @@
+#ทั้งหน่วย Degree และ Radian
+SIN()
+COS()
+TAN()
+
++   บวก
+-   ลบ
+*   คูณ
+/   หาร
+
+^   ยกกำลัง
+
+!   factorial
+
+root การถอดราก
+
+log() ฟังก์ชัน logarithm

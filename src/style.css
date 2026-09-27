@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.calculator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+}
+
+.button-container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+.btn:active {
+    background-color: gray;
+}
+
+.btn img {
+    height: 60px;
+    background: transparent;
+}
+
+.display-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 450px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
